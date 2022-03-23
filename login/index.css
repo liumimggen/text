@@ -1,0 +1,119 @@
+body {
+	background-color: #f1f1f1;
+}
+.wid {
+	width: 1090px;
+	margin: 0 auto;
+}
+.header {
+	height: 100px;
+}
+.img {
+	float: left;
+}
+.img a {
+	
+}
+.img img {
+	width: 260px;
+	height: 25px;
+	padding:35px 600px 35px 0;
+}
+
+.plase-register {
+	float: right;
+}
+.plase-register>p {
+	font-size: 14px;
+	line-height: 100px;
+	color: #333;
+}
+.plase-register>p>a {
+	color: #ee6c69;
+}
+/* 内容 */
+.container {
+	margin-top: 20px;
+	height: 550px;
+	background-color: red;
+	font-size: 0;
+}
+.banner {
+	float: left;
+	background-color: #0069C8;
+	height: 100%;
+	width: 690px;
+}
+.banner>img {
+	height: 100%;
+	width: 100%;
+}
+.login {
+	float: right;
+	height: 100%;
+	width: 400px;
+	background-color: #fff;
+}
+.login>span {
+	font-size: 24px;
+	color: #333;
+	line-height: 50px;
+	height: 50px;
+	display: block;
+	margin: 30px 40px;
+	
+}
+.btn-login,.login-name,.login-pwd {
+	outline: none;
+	width: 300px;
+	height: 40px;
+	border: 1px solid #AEAEAE;
+	margin: 10px 40px;
+	border-radius: 3px;
+}
+ .btn-login{
+	background-color: #2E8AE4;
+	margin-top: 30px;
+	color: #fff;
+}
+.login-footer>span {
+	display: inline-block;
+	width: 320px;
+	height: 20px;
+	padding: 0 40px;
+}
+.login-footer>span>input {
+	vertical-align: middle;
+}
+.login-footer>span>p {
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #666;
+}
+.login-footer>span>a {
+	font-size: 12px;
+	color: #333;
+	vertical-align: middle;
+	float: right;
+	margin-right: 20px;
+}
+/* 页脚 */
+.footer {
+	height: 100px;
+}
+.footer ul {
+	padding: 30px 0 5px 0;
+	text-align: center;
+	
+}
+.footer ul>li {
+	display: inline-block;
+	padding: 0 5px;
+}
+.footer ul>li,.footer p {
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+}

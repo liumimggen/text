@@ -1,0 +1,104 @@
+body { background-color: #f2f2f2; }
+.wid { width: 1000px; margin: 0 auto;}
+/* 通栏 */
+.tonglan-wrapper {
+	background-color: #fff;
+	height: 50px;
+	line-height: 50px;
+}
+.tonglan {}
+.tonglan-left {
+	display: inline-block;
+}
+.tonglan-left>img {
+	vertical-align: middle;
+}
+.tonglan-right { float: right; }
+.tonglan-right>ul {}
+.tonglan-right>ul>li {
+	display: inline-block;
+	font-size: 12px;
+	color: #666;
+	margin: 0 5px;
+}
+/* 支付界面 */
+.pay-container {
+	margin-top: 40px;
+	margin-bottom: 50px;
+	background-color: #fff;
+	height: 520px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px 3px #CCCCCC;
+	padding: 30px 40px;
+	box-sizing: border-box;
+}
+.pay-container h1 {
+	font-size: 24px;
+	font-weight: 550;
+	float: left;
+	margin-right: 30px;
+	color: #333;
+}
+.pay-container>p {
+	font-size: 14px;
+	color: #999;
+	margin-top: 10px;
+	height: 40px;
+}
+.pay-steps {
+	width: 600px;
+	height: 400px;
+	margin: 20px auto;
+}
+.pay-code {
+	border: 1px solid #ccc;
+	float: left;
+}
+.pay-code>span {
+	padding: 10px 0;
+	margin-left: 60px;
+	vertical-align: middle;
+}
+.pay-code span { display: inline-block; }
+span img {
+	margin-left: 20px;
+	height: 30px;
+	width: 30px;
+}
+span>p {
+	height: 20px !important;
+	font-size: 14px;
+	color: #999;
+}
+.pay-code>img {
+	width: 300px;
+	height: 300px;
+	padding: 20px;
+	box-sizing: border-box;
+	display: block;
+	border-bottom: 1px solid #ccc;
+}
+.pay-phone img {
+	width: 250px;
+	height: 360px;
+	margin-left: 20px;
+}
+p>a { color: red; font-weight: 600 }
+/* 页脚 */
+.pay-footer-wrapper {
+	background-color: #fff;
+}
+.pay-footer {
+	height: 40px;
+}
+.pay-footer>p {
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	color: #888;
+	display: inline-block;
+}
+.pay-footer img {
+	float: right;
+	margin-top: 5px;
+}
